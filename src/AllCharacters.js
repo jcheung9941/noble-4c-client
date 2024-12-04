@@ -24,7 +24,7 @@ function AllCharacters() {
       {serverData.length > 0 ? (
         serverData.map((character) => (
           <li key={character._id}>
-            <Link to={`/mcu/${character.name}`}>{character.name}</Link>
+            <Link to={`/mcu/${character.characterName}`}>{character.characterName}</Link>
           </li>
         ))
       ) : (
